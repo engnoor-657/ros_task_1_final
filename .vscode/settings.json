@@ -1,0 +1,16 @@
+{
+  "terminal.integrated.profiles.linux": {
+    "Ubuntu": {
+      "path": "/bin/bash",
+      "args": ["-l"]
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "Ubuntu",
+  "terminal.integrated.profiles.windows": {
+    "Ubuntu (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu-22.04"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)"
+}
